@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color:rgb(1, 186, 248);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-brand{line-height: 2;
+  color: rgb(247, 89, 31);
+  width: fit-content;
+  font-size: 25px;
+  font-weight: 500;
+}
+#brandname{
+  width: fit-content;
+}
+#nvbr{background-color: #e3f2fd;padding-top: 0px;padding-bottom: 0px;}
+#repic{padding: 0px;box-shadow:0 0 50px rgb(106, 106, 238);}
+#contents{padding: 15px;}
+@media (min-width:1200px){
+  #nvbr{padding-left: 150px;padding-right: 150px;}
+  #contents{padding: 150px;padding-top: 30px;padding-bottom: 30px;}
+  .container{padding-left: 150px;padding-right: 150px;padding: 0px;}
+}
+@media (min-width:772px) and (max-width:1199px){
+  #nvbr{padding-left: 100px;padding-right: 100px;}
+  #contents{padding: 100px;padding-top: 30px;padding-bottom: 30px;}
+  .container{padding-left: 100px;padding-right: 100px;padding: 0px;}
+}
+#tiles{padding-left: 50px;padding-right: 50px;}
+#menutile,#combo,#map{
+  height: 250px;
+  width:100%;
+  padding: 0px;
+}
+#indiv1,#indiv2,#indiv3{
+  margin: 15px;border: 1px solid black;
+  height: 220px;
+  
+  position: relative;
+  border: 1px solid black;
+  overflow: hidden;
+  padding: 0px;}
+#indiv1:hover,#indiv2:hover,#indiv3:hover{box-shadow: 0 0 10px black;}
+
+#indiv1>a>div{
+  background: url('images/menutile.jpg') no-repeat;
+  background-position: center;
+  height: 100%;
+}
+#indiv2>a>div{
+  background: url('images/combo.jpg') no-repeat;
+  background-position: center;
+  height: 100%;
+}
+#indiv1>a>span,#indiv2>a>span,#indiv3>a>span{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  color: whitesmoke;
+  font-size: 20px;
+}
+@media (max-width:575px){
+
+  #indiv1,#indiv2,#indiv3{width: 75%;margin: 0 auto 15px;
+}
+#indiv1{margin-top: 15px;}}
+
+.panel-footer{
+  background-color: #222;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #e3f2fd;
+  font-size: 16px;
+  
+}
+
+#limit{
+  color: green;
+  font-size: 12px;
+}
+@media (max-width:575px){
+  .panel-footer>.container{text-align: center;}
+}
+.panel-footer>section>hr{color: white;}
+
+
+#contents{margin-top: 75px;
+padding-top: 0  ;
+}
